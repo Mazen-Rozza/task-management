@@ -15,6 +15,7 @@ import java.time.OffsetDateTime
 @Entity
 @Table(name = "tasks")
 class Task(
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Int? = null,
